@@ -1,0 +1,26 @@
+# Credentials and SSH material
+.env
+.env.*
+!.env.example
+id_ed25519
+id_rsa
+*.pem
+*.key
+authorized_keys
+
+# Archives, backup outputs and working state
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*_2814.txt.utf-8
+restore/
+*.log
+
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
